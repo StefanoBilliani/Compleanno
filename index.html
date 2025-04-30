@@ -74,6 +74,10 @@
           text-align: right;
           border-radius: 10px;
         }
+
+        .ginny{
+            
+        }
     </style>
 <body>
   
@@ -114,7 +118,13 @@
     <div class="bar"><div class="fill" style="width: 17%; background-color: #9C27B0;"></div></div>
   </div>
     
+    <h1 id="ginny" style="display:none; color: white; font-size: 1.5rem;"> Grazie del favore Ginny o come direbbe Emma Gipsy </h1>
     
+    <script>
+      setTimeout(() => {
+        document.getElementById('ginny').style.display = 'block';
+      }, 5000);
+    </script> 
 </body>
 <script>
     const canvas = document.getElementById('confetti-canvas');
